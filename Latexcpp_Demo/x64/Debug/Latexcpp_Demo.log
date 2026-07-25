@@ -1,36 +1,24 @@
 ﻿  latex.cpp
-C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\include\wkhtmltox\image.h(24,8): warning C4099: 'wkhtmltoimage_global_settings': type name first seen using 'class' now seen using 'struct'
-  (compiling source file '../latex.cpp')
-      C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\latex.hpp(18,7):
+C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\dependencies\include\wkhtmltox\image.h(24,8): warning C4099: 'wkhtmltoimage_global_settings': type name first seen using 'class' now seen using 'struct'
+  (compiling source file '../src/latex.cpp')
+      C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\include\latex.hpp(18,7):
       see declaration of 'wkhtmltoimage_global_settings'
   
-C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\include\wkhtmltox\image.h(25,16): warning C4099: 'wkhtmltoimage_global_settings': type name first seen using 'class' now seen using 'struct'
-  (compiling source file '../latex.cpp')
-      C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\latex.hpp(18,7):
+C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\dependencies\include\wkhtmltox\image.h(25,16): warning C4099: 'wkhtmltoimage_global_settings': type name first seen using 'class' now seen using 'struct'
+  (compiling source file '../src/latex.cpp')
+      C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\include\latex.hpp(18,7):
       see declaration of 'wkhtmltoimage_global_settings'
   
-C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\include\wkhtmltox\image.h(27,8): warning C4099: 'wkhtmltoimage_converter': type name first seen using 'class' now seen using 'struct'
-  (compiling source file '../latex.cpp')
-      C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\latex.hpp(17,7):
+C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\dependencies\include\wkhtmltox\image.h(27,8): warning C4099: 'wkhtmltoimage_converter': type name first seen using 'class' now seen using 'struct'
+  (compiling source file '../src/latex.cpp')
+      C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\include\latex.hpp(17,7):
       see declaration of 'wkhtmltoimage_converter'
   
-C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\include\wkhtmltox\image.h(28,16): warning C4099: 'wkhtmltoimage_converter': type name first seen using 'class' now seen using 'struct'
-  (compiling source file '../latex.cpp')
-      C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\latex.hpp(17,7):
+C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\dependencies\include\wkhtmltox\image.h(28,16): warning C4099: 'wkhtmltoimage_converter': type name first seen using 'class' now seen using 'struct'
+  (compiling source file '../src/latex.cpp')
+      C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\include\latex.hpp(17,7):
       see declaration of 'wkhtmltoimage_converter'
   
-  main.cpp
-  wkhtmltox_mock.cpp
-  Generating Code...
-LINK : warning LNK4217: symbol 'wkhtmltoimage_init' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"public: __cdecl Latex::Latex(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::WarningBehavior)" (??0Latex@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4WarningBehavior@0@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_deinit' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"public: virtual __cdecl Latex::~Latex(void)" (??1Latex@@UEAA@XZ)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_create_global_settings' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"protected: virtual class wkhtmltoimage_global_settings * __cdecl Latex::_new_converter_settings(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?_new_converter_settings@Latex@@MEBAPEAVwkhtmltoimage_global_settings@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4ImageFormat@1@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_set_global_setting' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"protected: virtual class wkhtmltoimage_global_settings * __cdecl Latex::_new_converter_settings(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?_new_converter_settings@Latex@@MEBAPEAVwkhtmltoimage_global_settings@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4ImageFormat@1@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_create_converter' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"protected: virtual class wkhtmltoimage_converter * __cdecl Latex::_new_converter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?_new_converter@Latex@@MEBAPEAVwkhtmltoimage_converter@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4ImageFormat@1@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_destroy_converter' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"public: virtual void __cdecl Latex::to_image(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?to_image@Latex@@UEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4ImageFormat@1@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_set_warning_callback' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"protected: virtual class wkhtmltoimage_converter * __cdecl Latex::_new_converter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?_new_converter@Latex@@MEBAPEAVwkhtmltoimage_converter@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4ImageFormat@1@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_set_error_callback' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"protected: virtual class wkhtmltoimage_converter * __cdecl Latex::_new_converter(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?_new_converter@Latex@@MEBAPEAVwkhtmltoimage_converter@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@W4ImageFormat@1@@Z)'
-LINK : warning LNK4217: symbol 'wkhtmltoimage_convert' defined in 'wkhtmltox_mock.obj' is imported by 'latex.obj' in function '"public: virtual void __cdecl Latex::to_image(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,enum Latex::ImageFormat)const " (?to_image@Latex@@UEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0W4ImageFormat@1@@Z)'
-  Latexcpp_Demo.vcxproj -> C:\00\02 Projects\Factory\projekti\revival\latexcpp_vs2022\x64\Debug\Latexcpp_Demo.exe
+  Latexcpp_Demo.vcxproj -> C:\00\02 Projects\Factory\projekti\revival\Latex CPP\latexpp\x64\Debug\Latexcpp_Demo.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
