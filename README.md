@@ -19,4 +19,4 @@ The dependency versions that have been utilized are as follows:
 
 Additionally, ImageMagick has been added to allow cropping and other editing for generated .png Latex-based images, offering an improvement in results. The project does not require it to work.
 
-For simpler use, the solution is standalone/ready-to-build and does not need any configurations beforehand. However, due to the large size of some of the files, I have made a .zip file within the release which needs to be extracted into the project before launching it.
+For simpler use, the solution is standalone/ready-to-build and does not need any configurations beforehand. **However, due to the large size of some of the files, I have made a .zip file within the release which needs to be extracted into the project before launching it.**
