@@ -1,13 +1,13 @@
 Github repositories
 Revival program – C++
-Original project: latexcpp - (https://github.com/goldsborough/latexpp)
+Original project: latexpp - (https://github.com/goldsborough/latexpp)
 
 Written by: Nikolas Eškerica
 Date: 24/07/2026
 
 Licensed by MIT
 
-This is a modified fork of Peter Goldsborough's "latexcpp" project that is adapted for VS2022+ (Debug x64 /MTd) exclusively. 
+This is a modified fork of Peter Goldsborough's "latexpp" project that is adapted for VS2022+ (Debug x64 /MTd) exclusively. 
 
 The project is outdated (10+ years) and no longer compatible with modern versions of its dependencies, so I downgraded and adjusted them completely to make the author's code runnable again for future C++ projects.
 
